@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# A function that takes an input from the user and calculate someone’s age
+
+import datetime
+
+currentyear = datetime.datetime.now().year
+
+birthyear = input("Enter your birth year: ")
+age = currentyear - int(birthyear)
+
+print("Your age is:", age)
